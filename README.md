@@ -45,7 +45,7 @@ dajoe@gmail.com,jadoe@gmail.com
 ```
 
 ### Further Reading
-For more info on Ford-Fulkerson, or flow networks in general I've added some links:
+For more info on Ford-Fulkerson, or flow networks in general, I've added some links:
 - https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm
 - https://en.wikipedia.org/wiki/Flow_network
 - https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem
