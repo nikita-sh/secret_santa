@@ -6,9 +6,23 @@ A command line application to generate a secret santa matching made using Python
 1. Make sure you have `python3` and `pip3` installed.
 2. Clone the repository.
 3. Run `install.sh` to download any dependencies.
-4. Run `python3 secret_santa (-s|--source) [PATH TO SOURCE FILE] [(-e|--exceptions) [PATH TO EXCEPTIONS FILE]`
+4. Run `python3 secret_santa -s source_file.txt -e exceptions_file.txt`
 
-The output will be printed to the console. You can also use the `-h` flag for help with command line options.
+Usage information:
+```
+usage: Secret Santa [-h] -s SOURCE [-e EXCEPTIONS]
+
+Assigns Secret Santa pairs given a list of emails
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s SOURCE, --source SOURCE
+                        Path to file containing emails to match.
+  -e EXCEPTIONS, --exceptions EXCEPTIONS
+                        Path to file containing forbidden pairings.
+```
+
+The output will be printed to the console. The exceptions file is an optionYou can also use the `-h` flag for help with command line options.
 
 ### File Format
 
