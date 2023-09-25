@@ -5,7 +5,7 @@ A command line application to generate a secret santa matching made using Python
 ### Running the application
 1. Make sure you have `python3` and `pip3` installed.
 2. Clone the repository.
-3. Run `install.sh` to download any dependencies.
+3. Run `source install.sh` to download any dependencies.
 4. Run `python3 secret_santa -s source_file.txt -e exceptions_file.txt`
 
 Usage information:
