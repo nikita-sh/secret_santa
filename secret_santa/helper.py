@@ -84,8 +84,6 @@ def bipartite_ford_fulkerson(graph: dict[str, str], source: str, sink: str) -> N
         The source node from which flow originates.
     sink: str
         The sink node to which flow is directed.
-    sentinel: str
-        Sentinel value used for duplicate nodes.
     """
     while True:
         path = bfs(graph, source, sink)
