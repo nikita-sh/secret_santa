@@ -70,7 +70,7 @@ def main():
         forbidden = parse_exceptions(args.exceptions)
     
     mg = MatchGenerator(source_list=emails, forbidden_pairs=forbidden)
-    pairs = mg.generate_matches()\
+    pairs = mg.generate_matches()
 
     for key, value in pairs.items():
         print(f'Notifying {key} that they are assigned to get a gift for {name_map[value]}')
