@@ -22,7 +22,7 @@ optional arguments:
                         Path to file containing forbidden pairings.
 ```
 
-The output will be printed to the console. The exceptions file is an optionYou can also use the `-h` flag for help with command line options.
+The output will be printed to the console. The exceptions file is an optional argument. You can also use the `-h` flag for help with command line options.
 
 ### File Format
 
